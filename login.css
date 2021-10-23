@@ -1,0 +1,99 @@
+body{
+  background-color: #FcFcFc;
+  margin: 0;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.lo{
+  display: inline-block;
+  margin: 8px 35px 12px 100px;
+}
+
+.nav p{
+  z-index: 1;
+  position: absolute;
+  display: inline-flex;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 5px;
+  color: #212121;
+  margin: 0 0 0 330px;
+}
+
+.nav p span{
+  color: #5dca36;
+}
+
+.nav{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  font-size: 15px;
+  background-color: white;
+}
+
+
+.log{
+  display: block;
+  float: right;
+  color: white;
+  background-color:#212121;
+  text-decoration: none;
+  padding: 6px 14px;
+  margin: 20px 40px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.log:hover{
+  border: 1px solid black;
+  background-color: white;
+  color: #212121;
+  border-radius: 6px;
+}
+
+/*--------------------------------------------------header finished-----------------*/
+
+.loginform{
+  background-color: white;
+  padding: 30px 100px;
+  margin: 170px 450px 0 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginform p{
+  font-size: 25px;
+  position: relative;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+
+input{
+  position: relative;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  padding: 7px 10px;
+  padding-right: 50px;
+  border: 1px solid black;
+  border-radius: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.button{
+  position: relative;
+  margin: 20px 20px 0 75px;
+  padding: 10px 50px;
+  background-color: white;
+  color: #212121;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.button:hover{
+  background-color: #212121;
+  color: white;
+}

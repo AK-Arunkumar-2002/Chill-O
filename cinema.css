@@ -1,0 +1,147 @@
+body{
+  background-color: #fcfcfc;
+  margin: 0;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.lo{
+  position: absolute;
+  display: inline-block;
+  margin: 5px 0 0 100px;
+}
+
+.top{
+  display: none;
+}
+
+.lo:hover .top{
+  position: relative;
+  margin: -5px 0 0 -4px;
+  display: inline-block;
+
+}
+
+.lo:hover .logo{
+  display: none;
+}
+
+.nav{
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 78px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.search{
+  display: inline-block;
+  padding: 7px 150px 6px 8px;
+  margin-right: 600px;
+  margin-top: 23px;
+  border: 1px solid #212121;
+  border-radius: 3px;
+  background-color: #FBFBFB;
+}
+
+.but{
+  display: inline-block;
+  position: absolute;
+  padding: 4px 10px;;
+  margin-top: 23px;
+  margin-left: 769px;
+}
+
+.s{
+  float: right;
+}
+.se{
+  margin-top: auto;
+  width: 18px;
+  height: 18px;
+}
+
+.arr{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin-top: 13px;
+  margin-left: 680px;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.back:hover .arr{
+  background-color: #f8f8f8;
+}
+
+.bell{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin-top: 13px;
+  margin-left: 745px;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.noti:hover .bell{
+  background-color: #f8f8f8;
+}
+
+.man{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin-top: 13px;
+  margin-left: 810px;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.prof:hover .man{
+  background-color: #f8f8f8;
+}
+
+/*---------------------------------------------------------------nav finished------------------------------------------------------------*/
+
+p{
+  font-size: 20px;
+  color: #5dca36;
+  margin-left: 350px;;
+}
+
+.cont{
+  margin-top: 78px;
+  margin-left: 130px;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.spotify{
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.spot{
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.alice{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.meme{
+  margin-top: 30px;
+  width: 400px;
+  height: 400px;
+  margin-left: 340px;
+  margin-bottom: 30px;
+}

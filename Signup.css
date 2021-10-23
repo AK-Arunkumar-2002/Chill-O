@@ -1,0 +1,107 @@
+body{
+  background-color: #fcfcfc;
+  margin: 0;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.lo{
+  display: inline-block;
+  margin: 8px 35px 12px 100px;
+}
+
+.nav p{
+  z-index: 1;
+  position: absolute;
+  display: inline-flex;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 0;
+  color: #5dca36;
+  margin: 0 0 0 315px;
+}
+
+.nav p span{
+  color: #212121;
+}
+
+.nav{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  font-size: 15px;
+  background-color: white;
+}
+
+
+.log{
+  display: block;
+  float: right;
+  color: white;
+  background-color:#212121;
+  text-decoration: none;
+  padding: 6px 14px;
+  margin: 20px 40px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.log:hover{
+  border: 1px solid black;
+  background-color: white;
+  color: #212121;
+  border-radius: 6px;
+}
+
+/*--------------------------------------------------header finished-----------------*/
+
+.loginform{
+  position: relative;
+  background-color: white;
+  padding: 10px 100px 25px 100px;
+  margin: 105px 450px 0 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 11px;
+}
+
+.loginform p{
+  font-size: 25px;
+  position: relative;
+  margin-left: 75px;
+  margin-bottom: 10px;
+}
+
+
+input{
+  position: relative;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  padding: 5px 4px;
+  padding-right: 70px;
+  border: 1px solid black;
+  border-radius: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.check{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.button{
+  position: relative;
+  margin: 5px 20px 20px 70px;
+  padding: 10px 50px;
+  background-color: white;
+  color: #212121;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.button:hover{
+  background-color: #212121;
+  color: white;
+}
